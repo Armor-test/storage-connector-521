@@ -1,0 +1,34 @@
+# CODEOWNERS file for storage-connector-521
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-ux @Armor-test/dept-reporting @Armor-test/dept-automation
+
+# Directory ownership
+/src/ @Armor-test/team-research @Armor-test/dept-release @Armor-test/unit-cloud
+/deploy/ @Armor-test/team-frontend @Armor-test/grp-api
+/plugins/ @Armor-test/squad-ux @Armor-test/team-research @Armor-test/team-logging
+/controllers/ @Armor-test/squad-payments @Armor-test/squad-cache
+/build/ @Armor-test/team-notifications @Armor-test/team-reporting
+/dist/ @Armor-test/team-core @Armor-test/grp-storage
+/spec/ @Armor-test/grp-storage @Armor-test/grp-api
+/shared/ @Armor-test/team-frontend @Armor-test/dept-data
+/docs/ @Armor-test/dept-api @Armor-test/grp-storage
+/app/ @Armor-test/grp-ui @Armor-test/dept-release @Armor-test/squad-search
+
+# File type ownership
+*.sql @Armor-test/unit-cloud @Armor-test/dept-test @Armor-test/team-security
+*.go @Armor-test/squad-product @Armor-test/dept-logging
+*.html @Armor-test/squad-apps @Armor-test/squad-api
+*.css @Armor-test/squad-research @Armor-test/team-logging
+*.scss @Armor-test/dept-notifications @Armor-test/squad-ml
+*.yml @Armor-test/team-logging @Armor-test/squad-tooling @Armor-test/squad-cloud
+*.json @Armor-test/team-core @Armor-test/unit-governance @Armor-test/squad-mobile
+*.sh @Armor-test/unit-governance @Armor-test/dept-data
+*.properties @Armor-test/squad-ml @Armor-test/dept-billing
+*.tf @Armor-test/dept-ui @Armor-test/team-logging @Armor-test/unit-governance
+
+# Security and special files
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Dockerfile @Armor-test/devops @Armor-test/infra
